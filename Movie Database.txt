@@ -1,0 +1,8 @@
+movie.db;
+create table movies(Name string,actor string,actress string ,director string,Year of release int not null);
+insert into movies values("Twilight","Robert Pattison","Kristen Stewart","Catherine Hardwicke",2008);
+insert into movies values("Alaipayuthey","Madhavan","Shalini","Mani Ratnam",2000);
+insert into movies values("Jai Bhim","Suriya","Lijomol Jose","TJ Gnanavel",2021);
+insert into movies values("Don","Sivakarthikeyan","Priyanka Mohan","Cibi Chakaravarthi",2022);
+select * from movies;
+SELECT movie FROM movies WHERE actor='Suriya';
